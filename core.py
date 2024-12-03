@@ -219,6 +219,6 @@ async def send_vid(bot: Client, m: Message,cc,filename,thumb,name,prog):
     
     os.remove(filename)
 
-    os.remove(f"{filename}.jpg")
+    os.remove(f"{https://envs.sh/CQ8.jpg}.jpg")
     await reply.delete (True)
     
