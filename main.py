@@ -1,6 +1,6 @@
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Stranger boy Rohit
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Strangerboy27_bot_strangerboy
 
 import os
 import re
@@ -121,9 +121,9 @@ async def upload(bot: Client, m: Message):
     await editable.delete()
 
     thumb = input6.text
-    if thumb.startswith("https://envs.sh/CQ7.jpg") or thumb.startswith("https://envs.sh/CQ7.jpg"):
-        getstatusoutput(f"wget '{thumb}' -O 'https://envs.sh/CQ7.jpg'")
-        thumb = "https://envs.sh/CQ7.jpg"
+    if thumb.startswith("https://envs.sh/CQ7.jpg") or thumb.startswith("https://envs.sh/CQ8.jpg"):
+        getstatusoutput(f"wget '{thumb}' -O 'https://envs.sh/CQ8.jpg'")
+        thumb = "https://envs.sh/CQ8.jpg"
     else:
         thumb == "yes"
 
@@ -161,12 +161,17 @@ async def upload(bot: Client, m: Message):
 
             if "jw-prod" in url:
                 cmd = f'yt-dlp -o "{name}.mp4" "{url}"'
+
+            
             else:
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:  
                 
                 cc = f'**[📽️] Vid_ID:** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}.mkv\n**Stranger❣️👉𝔹ᴀᴛᴄʜ** » **{raw_text0}**'
+
+
+                
                 cc1 = f'**[📁] Pdf_ID:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n**Stranger❣❤️‍🩹👉 𝔹ᴀᴛᴄʜ** » **{raw_text0}**'
               
                 
@@ -189,6 +194,7 @@ async def upload(bot: Client, m: Message):
                         os.system(download_cmd)
                         copy = await bot.send_video_document(chat_id=m.chat.id, document=f'{name}.pdf', caption=cc1)
                         count += 1
+                        
                         os.remove(f'{name}.pdf')
                     except FloodWait as e:
                         await m.reply_text(str(e))
