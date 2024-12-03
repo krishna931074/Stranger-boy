@@ -1,6 +1,6 @@
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @stranger boy Rohit
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Strangerboy27_bot_strangerboy
 
 from os import environ
 
